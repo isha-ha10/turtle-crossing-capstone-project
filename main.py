@@ -26,7 +26,7 @@ while game_is_on:
         car.new_level_move()
         score.new_level()
     for each_car in car.cars:
-        if player.distance(each_car)<30:
+        if player.distance(each_car)<29:
             score.game_over()
             game_is_on=False
 screen.exitonclick()
